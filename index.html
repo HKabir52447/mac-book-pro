@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shoping</title>    
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- my css  -->
+    <link rel="stylesheet" href="css file/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="mac-book-img pt-5">
+                    <img class="img-fluid w-75" src="images/mac.png" alt="mac-book-pro">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mac-book-content pt-5">
+                    <h2>Customize your Blue 24-inch iMac with Apple M1 chip.</h2>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbold / USB 4 ports Magic Mouse Magic Keyboard US English</p>
+
+                    <h6 class="pt-4">Memory</h6>
+                    <p>
+                        <button id="memory-1" class="btn btn-outline-primary">8GB unified memory</button>
+                        <button id="memory-2" class="btn btn-outline-primary">16GB unified memory</button>
+                    </p>
+
+                    <h6 class="pt-3">Storage</h6>
+                    <p>
+                        <button id="storage-1" class="btn btn-outline-primary">256GB SSD storage</button>
+                        <button id="storage-2"  class="btn btn-outline-primary">512GB SSD storage</button>
+                        <button id="storage-3"  class="btn btn-outline-primary">1TB SSD storage</button>
+                    </p>
+
+                    <h6 class="pt-3">Choose your delivery option</h6>
+                    <p class=" pb-4">
+                        <button id="delivery-free" class="btn btn-outline-primary">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-charge" class="btn btn-outline-primary">Friday, Aug 21 Delivery charge $20</button>
+                    </p>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li><pre> Best Price                 $<span id="best-price">1299</span></pre></li>
+                                <li><pre> Extra Memory Cost          $<span id="extra-memory">0</span></pre></li>
+                                <li><pre> Extra Storage Cost         $<span id="extra-storage">0</span></pre></li>
+                                <li><pre> Delivery charge            $<span id="extra-charge">0</span></pre></li>
+                                <li><pre> Total Price                $<span id="total-charge">1299</span></pre></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h6 class="pt-3">Add Promo code</h6>
+                    <input id="promo-text" class="form-control w-50 d-inline-block mb-4"  type="text"> <button id="promo-code" class="btn btn-primary">Apply</button>
+                    
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <h2 class="pb-5 pt-2 text-center" >Total: $<span id="total">1299</span></h2>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- my js file -->
+    <script src="script-file/script.js"></script>
+    
+</body>
+</html>
